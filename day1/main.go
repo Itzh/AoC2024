@@ -1,4 +1,4 @@
-package main
+package day1
 
 import (
 	"bufio"
@@ -11,7 +11,7 @@ import (
 )
 
 func main() {
-	l1, l2 := parse("input_p2.txt")
+	l1, l2 := parse("input.txt")
 	fmt.Println("ans p1:", part_one(l1, l2))
 	fmt.Println("ans p2:", part_two(l1, l2))
 }
